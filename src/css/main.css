@@ -17,13 +17,18 @@ body {
   margin-bottom: 32px;
 }
 
+.form input,
+.form button {
+  box-sizing: border-box;
+}
+
 .form input {
   flex: 1;
   height: 40px;
   opacity: 1;
   border-radius: 8px;
   background-color: #fff;
-  padding: 0 16px;
+  padding: 8px 16px;
   border: 1px solid #808080;
 }
 
